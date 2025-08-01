@@ -1,0 +1,29 @@
+# Entornos y dependencias
+venv/
+__pycache__/
+*.egg-info/
+
+# Archivos de datos grandes
+data/raw/*
+data/processed/*
+data/synthetic/*
+data/real/*
+
+# Archivos temporales
+*.log
+*.tmp
+*.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Resultados
+experiments/logs/*
+experiments/figures/*
+experiments/tables/*
+
+# Documentos compilados
+*.aux
+*.out
+*.toc
+*.pdf
