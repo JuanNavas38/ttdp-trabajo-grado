@@ -245,6 +245,36 @@ Proyecto académico - Universidad Javeriana. Los algoritmos externos mantienen s
 **Año**: 2025  
 **Enfoque**: Graph Embeddings + Graph Neural Networks para TTDP
 
+## Notebooks
+
+Los notebooks de análisis y revisión se encuentran en `ttdp-trabajo-grado/notebooks`:
+- `ttdp-trabajo-grado/notebooks/eda/Revision_Instancias_TTDP.ipynb`: Exploración y validación de instancias (sintéticas y reales), formatos y consistencia de columnas.
+- `ttdp-trabajo-grado/notebooks/literature_review/Embeddings_para_grafos.ipynb`: Resumen técnico de técnicas de embeddings en grafos aplicables al TTDP.
+- `ttdp-trabajo-grado/notebooks/literature_review/Revision_Soluciones_TTDP.ipynb`: Revisión de enfoques de solución (exactos, heurísticos y metaheurísticos) y su aplicabilidad.
+
+Estos cuadernos respaldan la trazabilidad metodológica del trabajo y facilitan la reproducción del análisis.
+
+## Estructura del Repositorio (Actualizada)
+
+```
+ttdp-trabajo-grado/
+  baseline_greedy.py         # Greedy de referencia (1 ruta)
+  exact_pulp.py              # Solver exacto de referencia (1 ruta)
+  src/
+    greedy_k_routes.py       # Greedy multi-ruta (k) leyendo k desde CSV u opción CLI
+    exact_pulp_k_routes.py   # Exacto multi-ruta (k) con PuLP (CSV)
+  data/
+    synthetic/               # Instancias sintéticas hptoptw-j**
+    real/                    # Benchmarks TOPTW de la literatura (Excel)
+  experiments/
+    tables/                  # Resultados en CSV
+  notebooks/
+    eda/                     # Exploración de datos e instancias
+    literature_review/       # Revisión de literatura y estado del arte
+  references/
+    citations.bib            # Bibliografía
+```
+
 ### Notas de ejecución (Actualizado)
 - Exacto multi‑ruta k (src):
   - CSV con k en el archivo: `python ttdp-trabajo-grado/src/exact_pulp_k_routes.py --file ttdp-trabajo-grado/data/synthetic/hptoptw-j11a.csv --name hptoptw-j11a --time-limit 60`
