@@ -244,3 +244,9 @@ Proyecto académico - Universidad Javeriana. Los algoritmos externos mantienen s
 **Programa**: Maestría en Inteligencia Artificial  
 **Año**: 2025  
 **Enfoque**: Graph Embeddings + Graph Neural Networks para TTDP
+
+### Notas de ejecución (Actualizado)
+- Exacto multi‑ruta k (src):
+  - CSV con k en el archivo: `python ttdp-trabajo-grado/src/exact_pulp_k_routes.py --file ttdp-trabajo-grado/data/synthetic/hptoptw-j11a.csv --name hptoptw-j11a --time-limit 60`
+  - Forzar k por CLI: `python ttdp-trabajo-grado/src/exact_pulp_k_routes.py --file ttdp-trabajo-grado/data/synthetic/hptoptw-j11a.csv --name hptoptw-j11a --k 2 --time-limit 60`
+- Requisitos para exacto k: `pulp`, además de `numpy` y `pandas` (y `openpyxl` si usas Excel en otros scripts).
