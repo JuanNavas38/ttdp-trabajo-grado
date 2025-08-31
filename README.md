@@ -92,7 +92,7 @@ ttdp-trabajo-grado/
 └── references/               # Bibliografía y papers
 ```
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 ### Requisitos
 ```bash
@@ -174,7 +174,7 @@ id,x,y,s,p,a,b,f,instance,k,i,u,l
 - **Parámetro α**: Balance entre heurística clásica y similitud latente
 - **Pruning**: k-NN en espacio de embeddings para reducir complejidad
 
-## 📈 Métricas de Evaluación
+##  Métricas de Evaluación
 
 ### **Calidad de Solución**
 - **Score total**: Beneficio acumulado de la ruta
@@ -229,17 +229,17 @@ id,x,y,s,p,a,b,f,instance,k,i,u,l
 - **LTR en Grafos**: Aplicaciones de ranking en problemas de optimización combinatoria
 - **Híbridos IA + Heurísticas**: Combinación de métodos clásicos y modernos
 
-## 🤝 Contribución
+##  Contribución
 
 Este es un proyecto académico de trabajo de grado. Para contribuciones o consultas, contactar al autor.
 
-## 📄 Licencia
+##  Licencia
 
 Proyecto académico - Universidad Javeriana. Los algoritmos externos mantienen sus respectivas licencias originales.
 
 ---
 
-**Desarrollado por**: [Tu Nombre]  
+**Desarrollado por**: Juan Sebastián Navas Gómez 
 **Institución**: Pontificia Universidad Javeriana  
 **Programa**: Maestría en Inteligencia Artificial  
 **Año**: 2025  
